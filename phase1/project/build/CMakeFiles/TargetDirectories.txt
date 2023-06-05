@@ -1,0 +1,4 @@
+C:/Users/duart/Desktop/CG/trabpratico/fase1/project/build/CMakeFiles/generator.dir
+C:/Users/duart/Desktop/CG/trabpratico/fase1/project/build/CMakeFiles/engine.dir
+C:/Users/duart/Desktop/CG/trabpratico/fase1/project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/duart/Desktop/CG/trabpratico/fase1/project/build/CMakeFiles/ZERO_CHECK.dir
