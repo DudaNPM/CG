@@ -1,0 +1,284 @@
+<world> <!-- a world can have a camera, a set of lights, and a single group -->
+
+    <camera> 
+	    <position x="-3500" y="1" z="11000" />
+	    <lookAt x="0" y="0" z="0" />
+	    <up x="0" y="1" z="0" /> <!-- optional, use these values as default-->
+        <projection fov="60" near="1" far="90000" /> <!-- optional, use these values as default-->
+    </camera>
+
+    <group>
+        <!--Sun-->
+        <transform>
+            <translate x="-10000" y="0" z="0"/>
+            <scale x="10000" y="10000" z="10000"/>
+        </transform>
+        <models>
+            <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+        </models>
+            <group>
+                <!--Mercury-->
+				<transform>
+                    <scale x="0.0001" y="0.0001" z="0.0001"/>
+                    <translate x="10900" y="0" z="0"/>
+                    <scale x="35" y="35" z="35"/>
+				</transform>
+				<models> 
+					<model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+				</models>
+                    <group>
+                        <!--Venus-->
+				        <transform>
+                            <scale x="0.0286" y="0.0286" z="0.0286"/>
+                            <translate x="900" y="0" z="0"/>
+                            <scale x="87" y="87" z="87"/>
+				        </transform>
+				        <models> 
+					        <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+				        </models>
+                            <group>
+                                <!--Earth-->
+                            	<transform>
+                                    <scale x="0.0115" y="0.0115" z="0.0115"/>
+                                    <translate x="1200" y="0" z="0"/>
+                                    <scale x="92" y="92" z="92"/>
+                            	</transform>
+                            	<models> 
+                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                            	</models>
+                                    <group>
+                                        <!--Moon-->
+                                    	<transform>
+                                            <scale x="0.0108" y="0.0108" z="0.0108"/>
+                                            <translate x="120.4092" y="120.4092" z="0"/>
+                                            <scale x="25" y="25" z="25"/>
+                                    	</transform>
+                                    	<models> 
+                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                    	</models>
+                                            <group>
+                                                <!--Mars-->
+                                            	<transform>
+                                                    <scale x="0.04" y="0.04" z="0.04"/>
+                                                    <translate x="-120.4092" y="-120.4092" z="0"/>
+                                                    <translate x="1600" y="0" z="0"/>
+                                                    <scale x="49" y="49" z="49"/>
+                                            	</transform>
+                                            	<models> 
+                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                            	</models>
+                                                    <group>
+                                                        <!--Phobos-->
+                                                    	<transform> 
+                                                            <scale x="0.0204" y="0.0204" z="0.0204"/>
+                                                            <translate x="0" y="100" z="0"/>
+                                                            <scale x="2" y="2" z="2"/>
+                                                    	</transform>
+                                                    	<models> 
+                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                    	</models>
+                                                            <group>
+                                                                <!--Deimos-->
+                                                            	<transform>
+                                                                    <scale x="0.5" y="0.5" z="0.5"/>
+                                                                    <translate x="0" y="-100" z="0"/>
+                                                                    <translate x="42.4264" y="42.4264" z="0"/>
+                                                                    <scale x="2" y="2" z="2"/>
+                                                            	</transform>
+                                                            	<models> 
+                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                            	</models>
+                                                                    <group>
+                                                                        <!--Jupiter-->
+                                                                    	<transform>
+                                                                            <scale x="0.5" y="0.5" z="0.5"/>
+                                                                            <translate x="-42.4264" y="-42.4264" z="0"/>
+                                                                            <translate x="2500" y="0" z="0"/>
+                                                                            <scale x="1000" y="1000" z="1000"/>
+                                                                    	</transform>
+                                                                    	<models> 
+                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                    	</models>
+                                                                            <group>
+                                                                                <!--IO-->
+                                                                            	<transform>
+                                                                                    <scale x="0.001" y="0.001" z="0.001"/>
+                                                                                    <translate x="977.8175" y="977.8175" z="0"/>
+                                                                                    <scale x="26" y="26" z="26"/>
+                                                                            	</transform>
+                                                                            	<models> 
+                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                            	</models>
+                                                                                    <group>
+                                                                                        <!--Europa-->
+                                                                                    	<transform>
+                                                                                            <scale x="0.0385" y="0.0385" z="0.0385"/>
+                                                                                            <translate x="0" y="-1955.635" z="0"/>
+                                                                                            <scale x="23" y="23" z="23"/>
+                                                                                    	</transform>
+                                                                                    	<models> 
+                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                    	</models>
+                                                                                            <group>
+                                                                                                <!--Ganymede-->
+                                                                                            	<transform> 
+                                                                                                    <scale x="0.0435" y="0.0435" z="0.0435"/>
+                                                                                                    <translate x="-1955.635" y="0" z="0"/>
+                                                                                                    <scale x="38" y="38" z="38"/>
+                                                                                            	</transform>
+                                                                                            	<models> 
+                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                            	</models>
+                                                                                                    <group>
+                                                                                                        <!--Callisto-->
+                                                                                                    	<transform>
+                                                                                                            <scale x="0.0263" y="0.0263" z="0.0263"/>
+                                                                                                            <translate x="0" y="1955.635" z="0"/>
+                                                                                                            <scale x="35" y="35" z="35"/>
+                                                                                                    	</transform>
+                                                                                                    	<models> 
+                                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                    	</models>
+                                                                                                            <group>
+                                                                                                                <!--Saturn-->
+                                                                                                            	<transform>
+                                                                                                                    <scale x="0.0286" y="0.0286" z="0.0286"/>
+                                                                                                                    <translate x="977.8175" y="-977.8175" z="0"/>
+                                                                                                                    <translate x="4000" y="0" z="0"/>
+                                                                                                                    <scale x="837" y="837" z="837"/>
+                                                                                                            	</transform>
+                                                                                                            	<models> 
+                                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                            	</models>
+                                                                                                                    <group>
+                                                                                                                        <!--Titan-->
+                                                                                                                    	<transform>
+                                                                                                                            <scale x="0.0012" y="0.0012" z="0.0012"/>
+                                                                                                                            <translate x="1117.6295" y="645.8781" z="0"/>
+                                                                                                                            <scale x="37" y="37" z="37"/>
+                                                                                                                    	</transform>
+                                                                                                                    	<models> 
+                                                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                    	</models>
+                                                                                                                            <group>
+                                                                                                                                <!--Enceladus-->
+                                                                                                                            	<transform>
+                                                                                                                                    <scale x="0.0270" y="0.0270" z="0.0270"/>
+                                                                                                                                    <translate x="-1117.6295" y="-645.8781" z="0"/>
+                                                                                                                                    <translate x="810.6482" y="927.7422" z="0"/>
+                                                                                                                                    <scale x="2" y="2" z="2"/>
+                                                                                                                            	</transform>
+                                                                                                                            	<models> 
+                                                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                            	</models>
+                                                                                                                                    <group>
+                                                                                                                                        <!--Uranus-->
+                                                                                                                                    	<transform>
+                                                                                                                                            <scale x="0.5" y="0.5" z="0.5"/>
+                                                                                                                                            <translate x="-810.6482" y="-927.7422" z="0"/>
+                                                                                                                                            <translate x="4000" y="0" z="0"/>
+                                                                                                                                            <scale x="364" y="364" z="364"/>
+                                                                                                                                    	</transform>
+                                                                                                                                    	<models> 
+                                                                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                    	</models>
+                                                                                                                                            <group>
+                                                                                                                                                <!--Miranda-->
+                                                                                                                                            	<transform> 
+                                                                                                                                                    <scale x="0.0027" y="0.0027" z="0.0027"/>
+                                                                                                                                                    <translate x="531.2592" y="-142.3505" z="0"/>
+                                                                                                                                                    <scale x="2" y="2" z="2"/>
+                                                                                                                                            	</transform>
+                                                                                                                                            	<models> 
+                                                                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                            	</models>
+                                                                                                                                                    <group>
+                                                                                                                                                        <!--Ariel-->
+                                                                                                                                                    	<transform>
+                                                                                                                                                            <scale x="0.5" y="0.5" z="0.5"/>
+                                                                                                                                                            <translate x="0" y="-100" z="0"/>
+                                                                                                                                                            <scale x="2" y="2" z="2"/>
+                                                                                                                                                    	</transform>
+                                                                                                                                                    	<models> 
+                                                                                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                                    	</models>
+                                                                                                                                                            <group>
+                                                                                                                                                                <!--Umbriel-->
+                                                                                                                                                            	<transform> 
+                                                                                                                                                                    <scale x="0.5" y="0.5" z="0.5"/>
+                                                                                                                                                                    <translate x="-100" y="-50" z="0"/>
+                                                                                                                                                                    <scale x="2" y="2" z="2"/>
+                                                                                                                                                            	</transform>
+                                                                                                                                                            	<models> 
+                                                                                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                                            	</models>
+                                                                                                                                                                    <group>
+                                                                                                                                                                        <!--Titania-->
+                                                                                                                                                                    	<transform> 
+                                                                                                                                                                            <scale x="0.5" y="0.5" z="0.5"/>
+                                                                                                                                                                            <translate x="-100" y="0" z="0"/>
+                                                                                                                                                                            <scale x="2" y="2" z="2"/>
+                                                                                                                                                                    	</transform>
+                                                                                                                                                                    	<models> 
+                                                                                                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                                                    	</models>
+                                                                                                                                                                            <group>
+                                                                                                                                                                                <!--Neptune-->
+                                                                                                                                                                            	<transform>
+                                                                                                                                                                                    <scale x="0.5" y="0.5" z="0.5"/>
+                                                                                                                                                                                    <translate x="100" y="0" z="0"/>
+                                                                                                                                                                                    <translate x="100" y="50" z="0"/>
+                                                                                                                                                                                    <translate x="0" y="100" z="0"/>
+                                                                                                                                                                                    <translate x="-531.2592" y="142.3505" z="0"/>
+                                                                                                                                                                                    <translate x="4000" y="0" z="0"/>
+                                                                                                                                                                                    <scale x="354" y="354" z="354"/>
+                                                                                                                                                                            	</transform>
+                                                                                                                                                                            	<models> 
+                                                                                                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                                                            	</models>
+                                                                                                                                                                                    <group>
+                                                                                                                                                                                        <!--Proteus-->
+                                                                                                                                                                                    	<transform>
+                                                                                                                                                                                            <scale x="0.0028" y="0.0028" z="0.0028"/>
+                                                                                                                                                                                            <translate x="0" y="-400" z="0"/>
+                                                                                                                                                                                            <scale x="2" y="2" z="2"/>
+                                                                                                                                                                                    	</transform>
+                                                                                                                                                                                    	<models> 
+                                                                                                                                                                                    	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                                                                    	</models>
+                                                                                                                                                                                            <group>
+                                                                                                                                                                                                <!--Triton-->
+                                                                                                                                                                                            	<transform>
+                                                                                                                                                                                                    <scale x="0.5" y="0.5" z="0.5"/>
+                                                                                                                                                                                                    <translate x="0" y="400" z="0"/>
+                                                                                                                                                                                                    <translate x="-482.8427" y="482.8427" z="0"/>
+                                                                                                                                                                                                    <scale x="20" y="20" z="20"/>
+                                                                                                                                                                                            	</transform>
+                                                                                                                                                                                            	<models> 
+                                                                                                                                                                                            	    <model file="planet.3d" /> <!-- generator planet 1 25 25 planet.3d -->
+                                                                                                                                                                                            	</models>
+                                                                                                                                                                                            </group>
+                                                                                                                                                                                    </group>
+                                                                                                                                                                            </group>
+                                                                                                                                                                    </group>
+                                                                                                                                                            </group>
+                                                                                                                                                    </group>
+                                                                                                                                            </group>
+                                                                                                                                    </group>
+                                                                                                                            </group>
+                                                                                                                    </group>
+                                                                                                            </group>
+                                                                                                    </group>
+                                                                                            </group>
+                                                                                    </group>
+                                                                            </group>
+                                                                    </group>
+                                                            </group>
+                                                    </group>
+                                            </group>
+                                    </group>
+                            </group>
+			        </group>
+			</group>
+    </group>
+</world>

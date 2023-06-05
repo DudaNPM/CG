@@ -1,0 +1,10 @@
+^C:\USERS\DUART\DESKTOP\CG\TRABPRATICO\FASE2\PROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/duart/Desktop/CG/trabpratico/fase2/project -BC:/Users/duart/Desktop/CG/trabpratico/fase2/project/build --check-stamp-file C:/Users/duart/Desktop/CG/trabpratico/fase2/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

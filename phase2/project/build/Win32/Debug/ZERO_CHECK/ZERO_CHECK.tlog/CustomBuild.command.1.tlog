@@ -1,0 +1,10 @@
+^C:\USERS\DUART\DESKTOP\CG\TRABPRATICO\FASE2\PROJECT\BUILD\CMAKEFILES\C3A60A155BA80BDE58901871A47B781F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/duart/Desktop/CG/trabpratico/fase2/project -BC:/Users/duart/Desktop/CG/trabpratico/fase2/project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/duart/Desktop/CG/trabpratico/fase2/project/build/engine2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

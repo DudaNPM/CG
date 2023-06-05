@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\duart\Desktop\CG\trabpratico\fase2\project\engine\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\duart\Desktop\CG\trabpratico\fase2\project\engine\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\duart\Desktop\CG\trabpratico\fase2\project\engine\transformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\duart\Desktop\CG\trabpratico\fase2\project\engine\xmlreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duart\Desktop\CG\trabpratico\fase2\project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6BDD8B98-01FD-3CA9-A672-79D169E1012B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
